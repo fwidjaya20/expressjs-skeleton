@@ -1,0 +1,25 @@
+{
+  "name": "expressjs-skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "build": "tsc",
+      "dev": "ts-node ./index.ts",
+      "start": "nodemon ./dist/index.js",
+      "prod": "npm run build && npm run start"
+  },
+  "keywords": [
+    "expressjs"
+  ],
+  "author": "Fredrick Widjaya",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.3333"
+  }
+}
